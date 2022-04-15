@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react'
-import Chat from './Chat.js'
+import Shop from './Shop.js'
+
+
+
 
 function App(){
   const [mount, setMount] = useState(false)
@@ -13,7 +16,7 @@ function App(){
       >
         toggle
       </button>
-      { mount && <Chat/> }
+      { mount && <Shop/> }
     </div>
   )
 }
