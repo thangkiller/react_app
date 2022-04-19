@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react'
-import Shop from './Shop.js'
+import Button from './Button.js'
 
 
 
@@ -16,7 +16,7 @@ function App(){
       >
         toggle
       </button>
-      { mount && <Shop/> }
+      { mount && <Button/> }
     </div>
   )
 }

@@ -1,4 +1,4 @@
-
+import './Product.css'
 
 
 function Product({
@@ -10,12 +10,19 @@ function Product({
 
 	return (
 		<div>
-			<img src={photo_url} alt=""/>
-			{ is_stock && 
-				( <div>in stock</div>)
-			}
-			<h2>{name}</h2>
-			<div>{price}</div>
+			<div className="image">
+				<img src={photo_url} alt=""
+					width={250}
+					height={250}
+				/>
+				{ is_stock && 
+					( <div>in stock</div>)
+				}
+			</div>
+			<div className="photo">
+				<h2>{name}</h2>
+				<div>{`$${price}`}</div>
+			</div>
 		</div>
 	)
 }

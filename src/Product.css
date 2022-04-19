@@ -1,0 +1,26 @@
+.image{
+	position: relative;
+	background-color: #ccc;
+}
+.image>img{
+
+}
+.image>div{
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #1a2456;
+	color: #fff;
+	width: 70px;
+	height: 25px;
+	text-align: center;
+}
+.photo{
+
+}
+.photo>h2{
+	color: red;
+}
+.photo>div{
+
+}
