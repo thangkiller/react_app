@@ -1,5 +1,5 @@
 import Product from './Product.js'
-
+import styles from './Shop.module.css'
 
 
 
@@ -29,14 +29,22 @@ const  products = [
 
 function Shop() {
 	return (
-		<div>
+		<div className={styles.pro}>
 			{
-				products.map( product =>
-					<Product key={product.id}
-						name={product.name}
-						photo_url={product.photo_url}
-						price={product.price}
-						is_stock={product.is_stock}
+				products.map(
+					({
+						id,
+						name,
+						is_stock,
+						photo_url,
+						price
+					}) =>
+					<Product 
+						key={id}
+						name={name}
+						photo_url={photo_url}
+						price={price}
+						is_stock={is_stock}
 					/>
 				)
 			}

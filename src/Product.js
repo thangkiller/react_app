@@ -1,4 +1,4 @@
-import './Product.css'
+import styles from './Product.module.css'
 
 
 function Product({
@@ -10,7 +10,7 @@ function Product({
 
 	return (
 		<div>
-			<div className="image">
+			<div className={styles.image}>
 				<img src={photo_url} alt=""
 					width={250}
 					height={250}
@@ -19,7 +19,7 @@ function Product({
 					( <div>in stock</div>)
 				}
 			</div>
-			<div className="photo">
+			<div className={styles.photo}>
 				<h2>{name}</h2>
 				<div>{`$${price}`}</div>
 			</div>
@@ -28,4 +28,4 @@ function Product({
 }
 
 
-export default Product
+export default Product;
