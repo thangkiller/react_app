@@ -1,26 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import { useState } from 'react'
-import Shop from './Shop.js'
-
-
+import logo from './logo.svg'
+import './App.css'
+import Header from './Header/Header.js'
+import Body from './Body/Body.js'
+import Footer from '/Footer/Footer.js'
 
 
 function App(){
-  const [mount, setMount] = useState(false)
 
   return (
-    <div style ={{ margin: 25 }} >
-      <button
-        onClick={ () => setMount(!mount) }
-      >
-        toggle
-      </button>
-      { mount && <Shop/> }
+    <div>
+      <Header/>
+      <Body/>
+      <Footer/>
     </div>
   )
 }
-
 
 
 
