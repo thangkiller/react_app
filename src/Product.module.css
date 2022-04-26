@@ -16,17 +16,17 @@
 	height: 25px;
 	text-align: center;
 }
-.photo{
+.content{
 	width: 100%;
 	margin-bottom: 1rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
 }
-.photo>h2{
+.content>h2{
 	color: #080B43;
 	margin: 0;
 }
-.photo>div{
+.content>div{
 
 }
