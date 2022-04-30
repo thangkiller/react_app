@@ -62,6 +62,21 @@ const list = [
   }
 ]
 
+function Spice({ list }) {
+  const [mount, setMount] = useState(false)
+
+  return(
+  <div>
+    <div onClick={setMount(!mount)} >v</div>
+    { mount &&
+      list.map( i =>
+        <a key={i.id} href={i.url}>{i.title}</a>
+      )
+    }
+  </div>
+  )
+}
+
 
 function Menu() {
   
@@ -73,9 +88,7 @@ function Menu() {
           <a href={ ('link' in dish) ? dish.link : undefined }>{dish.title}</a>
           {
             ('type' in dish) ?
-              dish.type.map( ingrendent =>
-                <a key={ingrendent.id} href={ingrendent.url}>{ingrendent.title}</a>
-                ) 
+              <Spice list={dish.type}/>
             : undefined
           }
         </div>
