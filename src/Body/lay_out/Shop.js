@@ -9,19 +9,13 @@ function Shop() {
 		<div className={styles.pro}>
 			{
 				products.map(
-					({
-						id,
-						name,
-						is_stock,
-						photo_url,
-						price
-					}) =>
+					product =>
 					<Product 
-						key={id}
-						name={name}
+						key={product.id}
+						name={product.name}
 						photo_url={photo_url}
-						price={price}
-						is_stock={is_stock}
+						price={product.price}
+						is_stock={product.is_stock}
 					/>
 				)
 			}
