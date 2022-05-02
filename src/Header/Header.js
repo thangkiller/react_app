@@ -1,4 +1,3 @@
-import clsx from 'clsx'
 import { useState } from 'react'
 import styles from './Header.module.css'
 import Menu from './Menu.js'
@@ -9,12 +8,12 @@ function Header( {
 }) {
   
   return  (
-  <div className={styles.navbar}>
-    <div className={clsx(styles.item, styles.right)}>
-      <div className={styles.right__item}>logo</div> 
-      <div className={styles.right__item}>brand</div>
+  <div styles={styles.navbar}>
+    <div >
+      <div>logo</div> 
+      <div>brand</div>
     </div>
-    <div className={clsx(styles.item, styles.left)}>
+    <div>
       <Menu/>
       <Pocket/>
     </div>

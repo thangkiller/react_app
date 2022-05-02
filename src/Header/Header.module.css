@@ -1,18 +1,12 @@
 .navbar{
-	display: flex;
-	justify-content: space-between;
-	background-color: #1A2456;
-	color: #E28F74;
+  display: flex;
+  justify-content: space-around;
+  
 }
-.item + .item {
-	padding: 0 1em;
+.navbar__item + .navbar__item{
+  margin: 0 10em;
 }
+
 .right{
-	display: flex;
-}
-.right__item + .right__item{
-	padding: 0 0.5em;
-}
-.left{
-	display: flex;
+  
 }
