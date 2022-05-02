@@ -1,0 +1,12 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.navbar__item + .navbar__item{
+  margin: 0 10em;
+}
+
+.right{
+  
+}

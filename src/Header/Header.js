@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import style from './Header.module.css'
+import styles from './Header.module.css'
 import Menu from './Menu.js'
 import Pocket from './Pocket.js'
 
@@ -8,7 +8,7 @@ function Header( {
 }) {
   
   return  (
-  <div>
+  <div styles={styles.navbar}>
     <div >
       <div>logo</div> 
       <div>brand</div>
