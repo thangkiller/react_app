@@ -1,4 +1,4 @@
-
+import groups from '../store/footer.js'
 
 function Footer() {
   
