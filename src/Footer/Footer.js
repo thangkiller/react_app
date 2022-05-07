@@ -8,12 +8,14 @@ function Footer() {
   {
     groups.map( group =>
       (
-        <div>{group.title}</div>
-        {
-          group.list.map( info =>
-            <a href={info.url}>{info.name}</a>
+        <div>
+          <div>{group.title}</div>
+          { group.list.map( info => (
+            <a href={info.name}>{info.name}</a>
+            )
           )
-        }
+          }
+        </div>
       )
     )
   }
