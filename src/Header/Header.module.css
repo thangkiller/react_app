@@ -5,8 +5,7 @@
   width: 96vw;
   margin: 0 auto;
   margin-bottom: 100px;
-
-  
+  color: #fff;
 }
 
 .navbar__item + .navbar__item{

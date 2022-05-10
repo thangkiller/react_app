@@ -1,5 +1,5 @@
 
-function Logo(){
+function Logo() {
 
 	return(
 	<div>
@@ -9,8 +9,8 @@ function Logo(){
 		  <rect x="53" y="17" width="6" height="44"></rect>
 		  <rect x="18" y="17" width="6" height="44"></rect>
 		  <path d="M111.5,50a25,25,0,1,0,25,25A25,25,0,0,0,111.5,50Zm0,44a19,19,0,1,1,19-19A19,19,0,0,1,111.5,94Z"></path>
-		<svg>
+		</svg>
 	</div>
 	)
 }
-export default Logo
+export default Logo;
