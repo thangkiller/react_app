@@ -2,18 +2,23 @@ import { useState } from 'react'
 import styles from './Header.module.css'
 import Menu from './Menu.js'
 import Pocket from './Pocket.js'
+import Logo from './Logo.js'
+
+
+const brand = 'MONOGRAM'
+
 
 function Header( {
   rounts
 }) {
   
   return  (
-  <div styles={styles.navbar}>
-    <div >
-      <div>logo</div> 
-      <div>brand</div>
+  <div className={styles.navbar}>
+    <div className={styles.left}>
+      <Logo />
+      <div>{brand}</div>
     </div>
-    <div>
+    <div className={styles.right}>
       <Menu/>
       <Pocket/>
     </div>
@@ -23,3 +28,5 @@ function Header( {
 
 
 export default Header;
+
+
