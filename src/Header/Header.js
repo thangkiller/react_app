@@ -16,7 +16,6 @@ function Header( {
   <div className={styles.navbar}>
     <div className={styles.left}>
       <Logo />
-      <div>{brand}</div>
     </div>
     <div className={styles.right}>
       <Menu/>
