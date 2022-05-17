@@ -7,13 +7,14 @@
   width: 96vw;
   margin: 0 auto;
   margin-bottom: 100px;
-  color: #fff;
+  color: #EFC2B3;
 }
 .navbar__item + .navbar__item{
   margin: 0 10em;
 }
 .left{
   display: flex;
+  cursor: pointer;
 }
 .left:hover{
   color: #e28f74;
