@@ -5,8 +5,6 @@ import Pocket from './Pocket.js'
 import Logo from './Logo.js'
 
 
-const brand = 'MONOGRAM'
-
 
 function Header( {
   rounts

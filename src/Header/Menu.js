@@ -9,15 +9,10 @@ function Spice({ list }) {
   <div className={styles.spices}
     onClick={() => setMount(!mount)}
   >
-  v
-    { mount &&
-      <div className={styles.spice}>
-        {
-          list.map( i =>
-            <a key={i.id} href={i.url}>{i.title}</a>
-          )
-        }
-      </div>
+    {
+      list.map( i =>
+        <a key={i.id} href={i.url}>{i.title}</a>
+      )
     }
   </div>
   )

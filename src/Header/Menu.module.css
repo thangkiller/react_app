@@ -5,33 +5,35 @@
 .item{
 	padding: 0 0.5em;
 	display: flex;
+	position: relative;
 }
 .item>a{
 	color: #fff;
 	text-decoration: none;
 	margin: auto;
 }
+.item>a:hover{
+	color: #e28f74;
+}
 .spices{
-	position: relative;
-	top: 25%;
-	right: -2%;
-	font-size: 14px;
-	cursor: pointer;
-}
-.spice{
+	width: 270px;
+	height: 150px;
 	position: absolute;
-	top: 30px;
-	left: -110px;
-	width: 220px;
-	padding-left: 20px;
-	background-color: #fff;
-	border: 1px solid rgba(0, 0, 0, 33%);
-	padding-top: 10px;
-	box-shadow: 0 0 6px 1px rgba(0, 0, 0, 33%);
+	top: 100%;
+	background-color: teal;
+	display: flex;
+	flex-direction: column;
 }
-.spice>a{
+.spices:after{
+	content: '';
+	position: absolute;
+	left: 40%;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid white;
+}
+.spices>a{
 	text-decoration: none;
-	display: block;
-	margin-bottom: 10px;
-	color: #000;
+	margin-left: 20px;
+	margin-top: 5px;
 }
