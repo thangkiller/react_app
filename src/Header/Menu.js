@@ -2,17 +2,19 @@ import { useState } from 'react'
 import styles from './Menu.module.css'
 import { right } from '../store/header.js'
 
-function Spice({ list }) {
-  const [mount, setMount] = useState(false)
+function Spice({ list, toggle }) {
 
   return(
-  <div className={styles.spices}
-    onClick={() => setMount(!mount)}
-  >
+  <div className={styles.more}>
     {
-      list.map( i =>
-        <a key={i.id} href={i.url}>{i.title}</a>
-      )
+      toggle &&
+      <div className={styles.spices}>
+        {
+          list.map( i =>
+            <a key={i.id} href={i.url}>{i.title}</a>
+          )
+        }
+      </div>
     }
   </div>
   )
@@ -21,15 +23,19 @@ function Spice({ list }) {
 
 function Menu() {
   const { menu } = right
+  const [mount, setMount] = useState(false)
+
   return (
   <div className={styles.container}>
     {
       menu.map( dish => (
-        <div key={dish.id} className={styles.item}>
+        <div key={dish.id} className={styles.item}
+          onClick={ () => setMount(!mount)}
+        >
           <a href={ ('link' in dish) ? dish.link : undefined }>{dish.title}</a>
           {
             ('type' in dish) ?
-              <Spice list={dish.type}/>
+              <Spice list={dish.type} toggle={mount}/>
             : undefined
           }
         </div>

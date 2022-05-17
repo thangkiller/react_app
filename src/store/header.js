@@ -13,7 +13,6 @@ export const right = {
 	{
 		id: '02',
 		title: 'WORKFLOWS',
-		link: '',
 		type: [
 		{
 			id: '12',
