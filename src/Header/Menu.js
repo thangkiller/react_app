@@ -30,7 +30,7 @@ function Menu() {
     {
       menu.map( dish => (
         <div key={dish.id} className={styles.item}
-          onClick={ () => setMount(!mount)}
+          onClick={ () => ('type' in dish) ? setMount(!mount) : undefined }
         >
           <a href={ ('link' in dish) ? dish.link : undefined }>{dish.title}</a>
           {

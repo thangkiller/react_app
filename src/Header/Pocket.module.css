@@ -5,3 +5,30 @@
 	color: inherit;
 	cursor: pointer;
 }
+.cover{
+	position: absolute;
+	inset: 0;
+	background-color: teal;
+
+}
+.bag{
+
+}
+.header{
+
+}
+.body{
+
+}
+.footer{
+
+}
+.paidMoney{
+
+}
+.paidMoney>button{
+
+}
+.paidMoney:last-child{
+
+}
