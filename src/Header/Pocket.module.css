@@ -5,17 +5,57 @@
 	color: inherit;
 	cursor: pointer;
 }
+@keyframes blur{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 0.5;
+	}
+}
 .cover{
 	position: absolute;
 	inset: 0;
-	background-color: teal;
-
+	background-color: #000;
+	opacity: 0.5;
+	cursor: default;
+	animation: blur 1s linear 0s;
+}
+@keyframes fly{
+	from{
+		right: -30%;
+	}
+	to{
+		right: 0;
+	}
 }
 .bag{
-
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: default;
+	background-color: teal;
+	overflow: hidden;
+	animation: fly 1s linear 0s;
 }
 .header{
-
+	height: 18%;
+	font-size: 15px;
+	font-weight: 700;
+	color: white;
+	background-color: #1A2456;
+	display: flex;
+}
+.header>div{
+	cursor: pointer;
+	width: 50%;
+	margin: auto 0;
+	padding-left: 5px;
+}
+.header svg{
+	vertical-align: bottom;
 }
 .body{
 
