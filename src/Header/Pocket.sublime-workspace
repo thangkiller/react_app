@@ -1,0 +1,904 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ve",
+				"vertical-align: middle;"
+			],
+			[
+				"last",
+				"last-child{"
+			],
+			[
+				"la",
+				"last-child{"
+			],
+			[
+				"c",
+				"className={styles."
+			],
+			[
+				"cla",
+				"className={styles."
+			],
+			[
+				"0",
+				"0, 0, 0, 0, 33%"
+			],
+			[
+				"sha",
+				"box-shadow"
+			],
+			[
+				"sp",
+				"spice"
+			],
+			[
+				"text",
+				"text-decoration:"
+			],
+			[
+				"fo",
+				"footer"
+			],
+			[
+				"ma",
+				"map"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"gu",
+				"group"
+			],
+			[
+				"st",
+				"store"
+			],
+			[
+				"fr",
+				"from"
+			],
+			[
+				"exp",
+				"export default"
+			],
+			[
+				"he",
+				"header.js"
+			],
+			[
+				"cl",
+				"clsx"
+			],
+			[
+				"spa",
+				"space-between;"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"ty",
+				"type"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"P",
+				"Pocket.module.css"
+			],
+			[
+				"Me",
+				"Menu.module.css"
+			],
+			[
+				"style",
+				"styles from"
+			],
+			[
+				"He",
+				"Header.js"
+			],
+			[
+				"mo",
+				"Button.module.css"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"Pro",
+				"Product.css"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"pho",
+				"photo_url"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"C",
+				"Consoles_DialBracket.webp"
+			],
+			[
+				"remov",
+				"removeEventListener(`comment ${id}`,"
+			],
+			[
+				"use",
+				"useEffect"
+			],
+			[
+				"co",
+				"comment"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"w",
+				"window."
+			],
+			[
+				"useEff",
+				"useEffect"
+			],
+			[
+				"new",
+				"new Event('comment"
+			],
+			[
+				"set",
+				"setInterval(()"
+			],
+			[
+				"get",
+				"getElementById('h1');"
+			],
+			[
+				"rea",
+				"react';"
+			],
+			[
+				"di",
+				"display:"
+			],
+			[
+				"under",
+				"underline'"
+			],
+			[
+				"cha",
+				"channel => ("
+			],
+			[
+				"createOb",
+				"createObjectURL(file"
+			],
+			[
+				"fi",
+				"file"
+			],
+			[
+				"ta",
+				"target"
+			],
+			[
+				"ep",
+				"export default"
+			],
+			[
+				"export",
+				"export default"
+			],
+			[
+				"us",
+				"useState("
+			],
+			[
+				"fontS",
+				"fontSize:"
+			],
+			[
+				"TY",
+				"TYPE_LOG"
+			],
+			[
+				"T",
+				"TYPE_WARNING"
+			],
+			[
+				"handler",
+				"handlerWork"
+			],
+			[
+				"Con",
+				"Conponent"
+			],
+			[
+				"Re",
+				"React.Component"
+			],
+			[
+				"docum",
+				"document.getElementById"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"doc",
+				"document.getElementById"
+			],
+			[
+				"pa",
+				"parentNode"
+			],
+			[
+				"par",
+				"parentNode"
+			],
+			[
+				"for",
+				"forEach("
+			],
+			[
+				"ben",
+				"benefits"
+			],
+			[
+				"this",
+				"thisCardN);"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"in",
+				"innerHTML);"
+			],
+			[
+				"insertAdj",
+				"insertAdjacentHTML('before"
+			],
+			[
+				"be",
+				"benefits"
+			],
+			[
+				"pri",
+				"priceNodes"
+			],
+			[
+				"s",
+				"sticky"
+			],
+			[
+				"men",
+				"menuNode);"
+			],
+			[
+				"gb",
+				"getBoundingClientRect"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"stk",
+				"sticky"
+			],
+			[
+				"console",
+				"console.log('nav2Node"
+			],
+			[
+				"infor__b",
+				"infor__block__item"
+			],
+			[
+				"pl",
+				"placeholder=\""
+			],
+			[
+				"first",
+				"first-line"
+			],
+			[
+				"lin",
+				"line-height:"
+			],
+			[
+				"b",
+				"bold;"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"border-",
+				"border-style"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"n",
+				"navbar__left"
+			],
+			[
+				"actio",
+				"action.js"
+			],
+			[
+				"flex",
+				"flex-direction:"
+			],
+			[
+				"flex-",
+				"flex-basis"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"text--",
+				"text--small"
+			],
+			[
+				"groupImg5__de",
+				"groupImg5__detail"
+			],
+			[
+				"gre",
+				"grey"
+			],
+			[
+				"cen",
+				"center center;"
+			],
+			[
+				"ob",
+				"object-fit"
+			],
+			[
+				"--",
+				"--spaceMargin"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"y",
+				"yellowgreen"
+			],
+			[
+				"g",
+				"groupImg1"
+			],
+			[
+				"o",
+				"orangered"
+			],
+			[
+				"pi",
+				"pink"
+			],
+			[
+				"og",
+				"orange"
+			],
+			[
+				"navbar__",
+				"navbar__right"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"sho",
+				"shortcut icon\""
+			],
+			[
+				"regime",
+				"regime__detail"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"space-",
+				"space-evenly"
+			],
+			[
+				"selection__",
+				"selection__side__color__detail"
+			],
+			[
+				"sele",
+				"selection__side__color"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"bet",
+				"space-between"
+			],
+			[
+				"color",
+				"outline-color"
+			],
+			[
+				"back",
+				"background-color:"
+			],
+			[
+				"padding-",
+				"padding-right"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"G",
+				"gray"
+			],
+			[
+				"font",
+				"font-size:"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"min",
+				"min.css\""
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"padding",
+				"padding: 10px"
+			],
+			[
+				"background",
+				"background-color:"
+			],
+			[
+				"f",
+				"flex"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"con",
+				"convert"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"te",
+				"Terminal: Open"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"refactor",
+				"Text Refactor: Introduce Variable"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"p i",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"istall",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime ",
+				"SublimeLinter: Goto Error"
+			],
+			[
+				"vn",
+				"View: Toggle Menu"
+			],
+			[
+				"vm",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Build: Cancel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 198.0,
+		"history":
+		[
+			"clean",
+			"git add .",
+			"git add .'",
+			"clearn",
+			"clean",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/AddRemoveFolder/Default (Windows).sublime-keymap",
+		"/D/Sublime Text/try/src/Header/Pocket.module.css",
+		"/D/Sublime Text/try/src/Header/Pocket.js",
+		"/D/Sublime Text/try/src/Header/Bag.scss",
+		"/D/Sublime Text/try/package.json",
+		"/D/Sublime Text/try/src/index.css",
+		"/D/Sublime Text/try/src/Header/Header.module.css",
+		"/D/Sublime Text/try/src/Header/Menu.module.css",
+		"/D/Sublime Text/try/src/Header/Menu.js",
+		"/D/Sublime Text/try/src/store/header.js",
+		"/D/Sublime Text/try/src/Header/Header.js",
+		"/D/Sublime Text/try/src/Header/Logo.js",
+		"/D/Sublime Text/try/src/App.js",
+		"/D/Sublime Text/try/src/store/font.css",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/User/Terminal.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/Terminal/Terminal.sublime-settings",
+		"/D/Sublime Text/animation/loadingCrile/index.html",
+		"/D/Sublime Text/animation/loadingCrile/style.css",
+		"/D/Sublime Text/Ableton/index.html",
+		"/D/Sublime Text/try/src/Footer/Footer.js",
+		"/D/Sublime Text/try/src/Footer/footer.module.css",
+		"/D/Sublime Text/try/src/store/good.js",
+		"/D/Sublime Text/try/src/store/footer.js",
+		"/D/Sublime Text/try/src/Footer/Group.js",
+		"/D/Sublime Text/StarBuck/action.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/User/Terminal (Windows).sublime-settings",
+		"/C/Users/Administrator/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
+		"/D/Sublime Text/try/src/Shop/Shop.js",
+		"/D/Sublime Text/try/src/App.test.js",
+		"/D/Sublime Text/try/src/Product.js",
+		"/D/Sublime Text/try/src/Shop/Product",
+		"/D/Sublime Text/try/src/Shop.module.css",
+		"/D/Sublime Text/try/src/Product.module.css",
+		"/D/Sublime Text/try/src/Button.js",
+		"/D/Sublime Text/try/src/Button.module.css",
+		"/D/Sublime Text/try/src/Shop.js",
+		"/D/Sublime Text/try/src/Product.css",
+		"/D/Sublime Text/try/src/img/Consoles_DialBracket.webp",
+		"/D/Sublime Text/React forder/index.html",
+		"/D/Sublime Text/React forder/app.js",
+		"/D/Sublime Text/try/src/Chat.js",
+		"/D/Sublime Text/try/src/Avatar.js",
+		"/D/Sublime Text/try/src/Timer.js",
+		"/D/Sublime Text/thu/index.js",
+		"/D/Sublime Text/thu/hang.js",
+		"/D/Sublime Text/thu/logger.js",
+		"/D/Sublime Text/thu/index.html",
+		"/D/Sublime Text/hang.js",
+		"/D/Sublime Text/Account StarBuck/act.js",
+		"/D/Sublime Text/Account StarBuck/timer.js",
+		"/D/Sublime Text/try/src/RunTop.js",
+		"/D/Sublime Text/try/src/timer.js",
+		"/D/Sublime Text/try/src/index.js",
+		"/D/Sublime Text/try/public/index.html",
+		"/D/Sublime Text/React forder/app.jsx",
+		"/D/Sublime Text/try/public/robots.txt",
+		"/D/Sublime Text/try/src/App.css",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/JsFormat/Default (Windows).sublime-keymap",
+		"/D/Sublime Text/React forder/style.css",
+		"/D/Sublime Text/Account StarBuck/index.html",
+		"/D/Sublime Text/Account StarBuck/assets/style.css",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/D/Sublime Text/StarBuck/assets/main.css",
+		"/D/Sublime Text/StarBuck/index.html",
+		"/D/Sublime Text/StarBuck/assets/base.css",
+		"/D/Sublime Text/Account StarBuck/assets/base.css",
+		"/D/Sublime Text/ableton/assets/main.css",
+		"/D/Sublime Text/ableton/action.js",
+		"/D/Sublime Text/ableton/index.html",
+		"/D/Sublime Text/ableton/assets/base.css",
+		"/D/Sublime Text/ableton/asessts/main.css",
+		"/D/Sublime Text/gameweb/main.html",
+		"/D/Sublime Text/ableton/asessts/img",
+		"/D/Sublime Text/ableton/asessts/base.css",
+		"/D/Sublime Text/gameweb/assets/main.css",
+		"/D/Sublime Text/gameweb/assets/ableton/index.html",
+		"/D/Sublime Text/gameweb/assets/base.css",
+		"/D/Sublime Text/example/column/display.css",
+		"/D/Sublime Text/example/column/main.html",
+		"/D/Sublime Text/example/collum/display.css",
+		"/D/Sublime Text/example/login/display.css",
+		"/D/Sublime Text/example/login/main.html",
+		"/D/Sublime Text/example/login/collum",
+		"/D/Sublime Text/example/navbar/main.html",
+		"/D/Sublime Text/example/navbar/display.css",
+		"/D/Sublime Text/gameweb/access/base.css",
+		"/D/Sublime Text/gameweb/access/main.css",
+		"/D/Sublime Text/gameweb/action.js",
+		"/D/Sublime Text/quan ly sinh vien/quanlysinhvien.cpp",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/User/html.sublime-build",
+		"/D/Sublime Text/SDL/SDL1/SDL_1_2_15/include/SDL_opengl.h",
+		"/D/Sublime Text/thu.cpp",
+		"/C/Users/Administrator/Desktop/thsif",
+		"/D/Sublime Text/quan ly sinh vien/data.txt",
+		"/D/Sublime Text/eh.cpp",
+		"/D/Sublime Text/quan ly sinh vien/hangderfile.cpp",
+		"/D/Sublime Text/quan ly sinh vien/taofile.cpp",
+		"/D/Sublime Text/quan ly sinh vien/thuvoicontrocapphatdong.cpp",
+		"/D/Sublime Text/vehinh.cpp",
+		"/D/Sublime Text/vehinhopp.cpp",
+		"/C/Users/Administrator/Documents/quanlyvandongvien.cpp",
+		"/C/Users/Administrator/Documents/tghreg.cpp",
+		"/C/Users/Administrator/Documents/quanlyvebanmaybay.cpp",
+		"/d/sublime text/handerfile",
+		"/D/Sublime Text/Game-demo.sublime-project/source files/game-demo.sublime-project",
+		"/D/Sublime Text/gameweb/dislay.css",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/User/runHTML.sublime-build",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/User/htmlzzz.sublime-build",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/User/untitled.sublime-build",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text/Packages/AdvancedNewFile/README.md",
+		"/D/Sublime Text/etaj.js",
+		"/D/Sublime Text/rito.js",
+		"/D/Sublime Text/cofrjeio.js",
+		"/D/Sublime Text/gjre.js",
+		"/D/Sublime Text/action.js",
+		"/D/Sublime Text/Game-demo.sublime-project/source files/main.cpp",
+		"/D/Sublime Text/thai",
+		"/D/Sublime Text/Game demo/source files/main.cpp",
+		"/D/Sublime Text/Source files",
+		"/C/Users/Administrator/Documents/vanban.cpp",
+		"/C/Users/Administrator/Documents/time.cpp",
+		"/C/Users/Administrator/Documents/tamgiac.cpp",
+		"/C/Users/Administrator/Documents/thisinh.cpp",
+		"/C/Users/Administrator/Documents/vandongvien"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 148.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 57.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/runHTML.sublime-build",
+	"project": "Pocket.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 265.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"p3"
+			]
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
