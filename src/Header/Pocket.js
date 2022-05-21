@@ -33,7 +33,7 @@ function Pocket() {
 							<div>{`$${money}`}</div>
 						</div>
 						<button>CHECKOUT</button>
-						<div>gift card or discount code</div>
+						<div className={styles.gift}>gift card or discount code</div>
 					</div>
 				</div>
 			</div>

@@ -1,10 +1,3 @@
-.pocket{
-	margin: auto 10px auto 0;
-	background-color: inherit;
-	border-style: none;
-	color: inherit;
-	cursor: pointer;
-}
 @keyframes blur{
 	from{
 		opacity: 0;
@@ -12,14 +5,6 @@
 	to{
 		opacity: 0.5;
 	}
-}
-.cover{
-	position: absolute;
-	inset: 0;
-	background-color: #000;
-	opacity: 0.5;
-	cursor: default;
-	animation: blur 1s linear 0s;
 }
 @keyframes fly{
 	from{
@@ -29,48 +14,92 @@
 		right: 0;
 	}
 }
-.bag{
-	width: 30%;
-	height: 100%;
-	position: absolute;
-	right: 0;
-	top: 0;
-	cursor: default;
-	background-color: teal;
+body{
 	overflow: hidden;
-	animation: fly 1s linear 0s;
 }
-.header{
-	height: 18%;
-	font-size: 15px;
-	font-weight: 700;
-	color: white;
-	background-color: #1A2456;
-	display: flex;
-}
-.header>div{
+.pocket{
+	margin: auto 10px auto 0;
+	background-color: inherit;
+	border-style: none;
+	color: inherit;
 	cursor: pointer;
-	width: 50%;
-	margin: auto 0;
-	padding-left: 5px;
-}
-.header svg{
+	.cover{
+		position: absolute;
+		inset: 0;
+		background-color: #000;
+		opacity: 0.5;
+		cursor: default;
+		animation: blur 0.3s linear 0s;
+	}
+	.bag{
+		width: 28%;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		cursor: default;
+		background-color: teal;
+		animation: fly 0.3s linear 0s;
+		.header{
+			height: 12%;
+			font-size: 15px;
+			font-weight: 700; 
+			color: white;
+			background-color: #1A2456;
+			display: flex;
+			div{
+				cursor: pointer;
+				width: 50%;
+				margin: auto 0;
+				padding-left: 5px;
+			}
+			svg{
+				vertical-align: bottom;
+			}
+		}
+		.footer{
+			height: 30%;
+			width: 100%;
+			background-color: #1A2456;
+			position: absolute;
+			bottom: 0;
+			display: flex;
+			flex-direction: column;
+			.paidMoney{
+				width: 78%;
+				margin: 25px auto;
+				display: flex;
+				justify-content: space-between;
+				font-size: 17px;
+				font-weight: 700;
+				color: #fff;
+			}
+			button{
+				width: 78%;
+				height: 45px;
+				margin: 0 auto;
+				border-radius: 24px;
+				border-style: none;
+				background-color: #efc2b3;
+				color: black;
+				font-size: 15px;
+				font-weight: 700;
+				opacity: 0.65;
+				letter-spacing: 1.1px;
+			}
+			.gift{
+				width: 78%;
+				margin: 20px auto;
+				font-size: 14px;
+				color: #ff7952;
+				cursor: pointer;
+				&:hover{
+					color: #ff3e05;
+					text-decoration: underline;
+				}
+			}
+		}
 
-	
-	vertical-align: bottom;
-}
-.body{
 
-}
-.footer{
-
-}
-.paidMoney{
-
-}
-.paidMoney>button{
-
-}
-.paidMoney:last-child{
-
+	}
 }
