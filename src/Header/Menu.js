@@ -1,49 +1,43 @@
-import { useState } from 'react'
-import styles from './Menu.module.css'
-import { right } from '../store/header.js'
+import { useState } from "react";
+import styles from "./Menu.module.css";
+import { right } from "../store/header.js";
 
 function Spice({ list, toggle }) {
-
-  return(
-  <div className={styles.more}>
-    {
-      toggle &&
-      <div className={styles.spices}>
-        {
-          list.map( i =>
-            <a key={i.id} href={i.url}>{i.title}</a>
-          )
-        }
-      </div>
-    }
-  </div>
-  )
+  return (
+    <div className={styles.more}>
+      {toggle && (
+        <div className={styles.spices}>
+          {list.map((i) => (
+            <a key={i.id} href={i.url}>
+              {i.title}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }
 
-
 function Menu() {
-  const { menu } = right
-  const [mount, setMount] = useState(false)
+  const { menu } = right;
+  const [mount, setMount] = useState(false);
 
   return (
-  <div className={styles.container}>
-    {
-      menu.map( dish => (
-        <div key={dish.id} className={styles.item}
-          onClick={ () => ('type' in dish) ? setMount(!mount) : undefined }
+    <div className={styles.container}>
+      {menu.map((dish) => (
+        <div
+          key={dish.id}
+          className={styles.item}
+          onClick={() => ("type" in dish ? setMount(!mount) : undefined)}
         >
-          <a href={ ('link' in dish) ? dish.link : undefined }>{dish.title}</a>
-          {
-            ('type' in dish) ?
-              <Spice list={dish.type} toggle={mount}/>
-            : undefined
-          }
+          <a href={"link" in dish ? dish.link : undefined}>{dish.title}</a>
+          {"type" in dish ? (
+            <Spice list={dish.type} toggle={mount} />
+          ) : undefined}
         </div>
-        )
-      )
-    }
-  </div>
-  )
+      ))}
+    </div>
+  );
 }
 
 export default Menu;

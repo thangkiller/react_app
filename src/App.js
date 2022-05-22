@@ -1,22 +1,18 @@
-import logo from './logo.svg'
-import './App.css'
-import './store/font.css'
-import Header from './Header/Header.js'
-import Body from './Body/Body.js'
-import Footer from './Footer/Footer.js'
+import logo from "./logo.svg";
+import "./App.css";
+import "./store/font.css";
+import Header from "./Header/Header.js";
+import Body from "./Body/Body.js";
+import Footer from "./Footer/Footer.js";
 
-
-function App(){
-
+function App() {
   return (
     <div>
-      <Header/>
-      <Body/>
-      <Footer/>
+      <Header />
+      <Body />
+      <Footer />
     </div>
-  )
+  );
 }
-
-
 
 export default App;

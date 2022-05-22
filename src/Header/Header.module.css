@@ -1,24 +1,24 @@
-.navbar{
-  font-family: Poppins, Prompt,sans-serif;
-  font-size:  14px;
+.navbar {
+  font-family: Poppins, Prompt, sans-serif;
+  font-size: 14px;
   display: flex;
   justify-content: space-between;
-  background-color: #1A2456;
+  background-color: #1a2456;
   width: 96vw;
   margin: 0 auto;
   margin-bottom: 100px;
-  color: #EFC2B3;
+  color: #efc2b3;
 }
-.navbar__item + .navbar__item{
+.navbar__item + .navbar__item {
   margin: 0 10em;
 }
-.left{
+.left {
   display: flex;
   cursor: pointer;
 }
-.left:hover{
+.left:hover {
   color: #e28f74;
 }
-.right{
+.right {
   display: flex;
 }
