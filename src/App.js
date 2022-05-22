@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "./store/font.css";
 import Header from "./Header/Header.js";

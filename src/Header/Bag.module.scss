@@ -14,9 +14,26 @@
 		right: 0;
 	}
 }
+@keyframes foam {
+	from {
+		opacity: 0.5;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@keyframes outlook {
+	from {
+		right: 0;
+	}
+	to {
+		right: -30%;
+	}
+}
 body {
 	overflow: hidden;
 }
+
 .pocket {
 	margin: auto 10px auto 0;
 	background-color: inherit;
@@ -31,6 +48,10 @@ body {
 		cursor: default;
 		animation: blur 0.3s linear 0s;
 	}
+	.disappearAnimation {
+		opacity: 0;
+		animation: foam 3s linear 0s;
+	}
 	.bag {
 		width: 28%;
 		height: 100%;
@@ -40,6 +61,9 @@ body {
 		cursor: default;
 		background-color: teal;
 		animation: fly 0.3s linear 0s;
+		.disappearAnimation {
+			animation: outlook 0.3s linear 0s;
+		}
 		.header {
 			height: 12%;
 			font-size: 15px;
