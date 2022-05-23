@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./Header.module.css";
 import Menu from "./Menu.js";
 import Pocket from "./Pocket.js";
-import Logo from "./Logo.js";
+import Logo from "../store/icon/Logo.js";
 
 function Header({ rounts }) {
   return (

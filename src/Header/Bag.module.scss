@@ -33,7 +33,12 @@
 body {
 	overflow: hidden;
 }
-
+.disappear {
+	display: none;
+}
+.disappearAnimation {
+	animation: foam 0.3s linear 0s;
+}
 .pocket {
 	margin: auto 10px auto 0;
 	background-color: inherit;
@@ -47,10 +52,6 @@ body {
 		opacity: 0.5;
 		cursor: default;
 		animation: blur 0.3s linear 0s;
-	}
-	.disappearAnimation {
-		opacity: 0;
-		animation: foam 3s linear 0s;
 	}
 	.bag {
 		width: 28%;
