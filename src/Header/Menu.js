@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./Menu.module.css";
-import { right } from "../store/header.js";
+import { right } from "../store/header";
 
 function Spice({ list, toggle }) {
   return (

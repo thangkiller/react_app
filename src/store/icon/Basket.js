@@ -1,6 +1,10 @@
 function Basket() {
 	return (
-		<div>
+		<div
+			style={{
+				cursor: "pointer",
+			}}
+		>
 			<svg
 				height="25"
 				width="25"

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import clsx from "clsx";
 import styles from "./Bag.module.scss";
-import Basket from "../store/icon/Basket.js";
-import Arrow from "../store/icon/Arrow.js";
+import Basket from "../store/icon/Basket";
+import Arrow from "../store/icon/Arrow";
 
 const money = 0;
 const isPresent = 2;
