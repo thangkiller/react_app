@@ -20,6 +20,7 @@
 	}
 	to {
 		opacity: 0;
+		display: none;
 	}
 }
 @keyframes outlook {
@@ -28,6 +29,7 @@
 	}
 	to {
 		right: -30%;
+		display: none;
 	}
 }
 body {
@@ -134,5 +136,4 @@ body {
 }
 .bagDisappear {
 	animation: outlook 0.3s linear 0s;
-	display: none;
 }
