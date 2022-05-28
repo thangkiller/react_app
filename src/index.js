@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import Provider from "./global/context";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-	<Provider value="10">
+	<Provider>
 		<App />
 	</Provider>
 );

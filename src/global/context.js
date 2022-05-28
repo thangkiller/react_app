@@ -1,9 +1,19 @@
-import { createContext } from "react";
+import { useState, createContext } from "react";
 
 export const Context = createContext();
 
-function Provider({ value, children }) {
-	return <Context.Provider value={value}>{children}</Context.Provider>;
+function Provider({ children }) {
+	const [value, setValue] = useState(0);
+	return (
+		<Context.Provider
+			value={{
+				data: value,
+				build: (value) => setValue(value),
+			}}
+		>
+			{children}
+		</Context.Provider>
+	);
 }
 
 export default Provider;

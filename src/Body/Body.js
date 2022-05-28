@@ -1,7 +1,11 @@
 import Card from "./Card";
 
 function Body() {
-  return <Card />;
+  return (
+    <div>
+      <Card />
+    </div>
+  );
 }
 
 export default Body;
