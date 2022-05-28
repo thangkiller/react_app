@@ -3,6 +3,8 @@ function Basket() {
 		<div
 			style={{
 				cursor: "pointer",
+				marginTop: "7px",
+				marginRight: "7px",
 			}}
 		>
 			<svg
