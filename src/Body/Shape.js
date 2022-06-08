@@ -1,9 +1,6 @@
-import { useContext } from "react";
 import { Context } from "../global/context";
 
 function Shape() {
-	const nam = useContext(Context);
-	console.log("year");
 	return (
 		<p
 			style={{
@@ -11,12 +8,10 @@ function Shape() {
 				marginBottom: "300px",
 				marginLeft: "50px",
 				cursor: "pointer",
-				//backgroundColor: ,
 			}}
-			onClick={() => nam.build(nam.data + 1)}
 		>
-			hom nay la ngay truc ban cua toi co danh sach tranh thu la 19 dong
-			chi
+			Events are normally used in combination with functions, and the
+			function will not be executed before the event
 		</p>
 	);
 }
