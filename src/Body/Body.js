@@ -1,11 +1,5 @@
-import Card from "./Card";
-
 function Body() {
-  return (
-    <div>
-      <Card />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Body;
