@@ -1,17 +1,22 @@
-import { useState, createContext } from "react";
+import { createContext, useState } from "react";
 
 export const Context = createContext();
+let AppState = false;
+let MoreState = false;
+
+const ToggleMore = () => {
+	console.log("thanh cong");
+};
 
 function Provider({ children }) {
-	const [value, setValue] = useState(0);
 	return (
 		<Context.Provider
 			value={{
-				data: value,
-				build: (value) => setValue(value),
+				MoreState,
+				setMore: ToggleMore,
 			}}
 		>
-			{children}
+			<div>{children}</div>
 		</Context.Provider>
 	);
 }
