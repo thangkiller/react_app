@@ -3,6 +3,8 @@ import { right } from "../store/header";
 import { Context } from "../global/context";
 import styles from "./Menu.module.css";
 
+
+const {}
 function Spice({ list, toggle }) {
   return (
     <div className={styles.more} onClick={() => console.log("tao buox dem")}>
