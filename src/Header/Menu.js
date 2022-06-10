@@ -1,10 +1,11 @@
 import { useState } from "react";
-import styles from "./Menu.module.css";
 import { right } from "../store/header";
+import { Context } from "../global/context";
+import styles from "./Menu.module.css";
 
 function Spice({ list, toggle }) {
   return (
-    <div className={styles.more}>
+    <div className={styles.more} onClick={() => console.log("tao buox dem")}>
       {toggle && (
         <div className={styles.spices}>
           {list.map((i) => (

@@ -7,13 +7,13 @@ import Footer from "./Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Cover />
       <Bag />
       <Body />
       <Footer />
-    </div>
+    </>
   );
 }
 export default App;
