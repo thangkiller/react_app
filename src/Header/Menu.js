@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { right } from "../store/header";
 import { Context } from "../global/context";
 import styles from "./Menu.module.css";
 
-
-const {}
 function Spice({ list, toggle }) {
+  const more = useContext(Context);
+  console.log(more);
   return (
     <div className={styles.more} onClick={() => console.log("tao buox dem")}>
       {toggle && (
