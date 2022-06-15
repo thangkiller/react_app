@@ -1,14 +1,15 @@
 import { useState, useContext } from "react";
+import clsx from "clsx";
 import { right } from "../store/header";
 import { Context } from "../global/context";
 import styles from "./Menu.module.css";
 
 function Spice({ list }) {
-  const more = useContext(Context);
+  const { setMore, MoreState } = useContext(Context);
   return (
-    <div className={styles.more} onClick={() => more.setMore()}>
-      {more.MoreState && (
-        <div className={styles.spices}>
+    <div className={styles.more} onClick={() => setMore()}>
+      {MoreState && (
+        <div className={clsx(styles.spices, { [styles.space]: false })}>
           {list.map((i) => (
             <a key={i.id} href={i.url}>
               {i.title}

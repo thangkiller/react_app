@@ -1,6 +1,9 @@
 .container {
 	display: flex;
 }
+.space {
+	display: none;
+}
 .item {
 	padding: 0 1em;
 	display: flex;

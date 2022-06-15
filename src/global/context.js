@@ -2,28 +2,33 @@ import { createContext, useState } from "react";
 
 export const Context = createContext();
 
-let ClickMore = false;
-const ToggleMore = (ClickMore, MoreState) => {
+const more = { state: false, ClickMore: false };
+const ToggleMore = (ao) => {
+	let { ClickMore, state } = ao;
 	if (ClickMore === true) {
 		ClickMore = false;
-		if (MoreState === true) return false;
-		return true;
+		if (state === true) state = false;
+		state = true;
 	} else {
-		if (MoreState === true) return false;
+		if (state === true) state = false;
 	}
 };
 
 function Provider({ children }) {
-	const [MoreState, setMoreState] = useState(false);
+	const [MoreState, setMoreState] = useState(more);
+
 	const ClickApp = () => {
-		setMoreState(ToggleMore(ClickMore, MoreState));
+		ToggleMore(more);
+		setMoreState(more);
+		console.log("ClickApp more", more);
 	};
 	return (
 		<Context.Provider
 			value={{
-				MoreState,
+				MoreState: MoreState.state,
 				setMore: () => {
-					ClickMore = true;
+					more.ClickMore = true;
+					console.log("data more ", more);
 				},
 			}}
 		>
