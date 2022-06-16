@@ -20,7 +20,6 @@ function Provider({ children }) {
 	const ClickApp = () => {
 		ToggleMore(more);
 		setMoreState(more);
-		console.log("ClickApp more", more);
 	};
 	return (
 		<Context.Provider
@@ -28,7 +27,6 @@ function Provider({ children }) {
 				MoreState: MoreState.state,
 				setMore: () => {
 					more.ClickMore = true;
-					console.log("data more ", more);
 				},
 			}}
 		>
