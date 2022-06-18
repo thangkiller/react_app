@@ -1,11 +1,10 @@
-import { useState, useContext, useEffect } from "react";
+import { useState, useContext } from "react";
 import clsx from "clsx";
 import { right } from "../store/header";
 import { Context } from "../global/context";
 import styles from "./Menu.module.css";
 
 function Spice({ list, toggle }) {
-  console.log("toggle", toggle);
   const spicesClasses = clsx(styles.spices, {
     [styles.space]: !toggle,
     [styles.flexD]: toggle,
@@ -27,11 +26,7 @@ function Menu() {
   const globalState = useContext(Context);
   console.log("globalState", globalState);
   const { menu } = right;
-  let spaceMore = false;
-
-  useEffect(() => {
-    console.log("spaceMore", spaceMore);
-  }, [spaceMore]);
+  const [spaceMore, setSpaceMore] = useState(false);
 
   return (
     <div className={styles.container}>
@@ -43,15 +38,20 @@ function Menu() {
             key={dish.id}
             className={styles.item}
             onClick={(e) => {
-              if (havingCave) {
-                spaceMore = !spaceMore;
-              }
               globalState.setMore();
+              if (havingCave) {
+                setSpaceMore(!spaceMore);
+              }
               e.stopPropagation();
             }}
           >
             <a href={"link" in dish && dish.link}>{dish.title}</a>
-            {havingCave && <Spice list={dish.type} toggle={spaceMore} />}
+            {havingCave && (
+              <Spice
+                list={dish.type}
+                toggle={!globalState.offMore && spaceMore}
+              />
+            )}
           </div>
         );
       })}
