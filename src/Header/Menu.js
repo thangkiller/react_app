@@ -1,19 +1,18 @@
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import clsx from "clsx";
 import { right } from "../store/header";
 import { Context } from "../global/context";
 import styles from "./Menu.module.css";
 
-function Spice({ list }) {
-  const { setMore, MoreState } = useContext(Context);
-  const classes = clsx(
-    { [styles.space]: spaceMore, [styles.crazy]: !spaceMore },
-    styles.spices
-  );
-  console.log(classes);
+function Spice({ list, toggle }) {
+  console.log("toggle", toggle);
+  const spicesClasses = clsx(styles.spices, {
+    [styles.space]: !toggle,
+    [styles.flexD]: toggle,
+  });
   return (
-    <div className={styles.more} onClick={() => setSpaceMore(!spaceMore)}>
-      <div className={classes}>
+    <div className={styles.more}>
+      <div className={spicesClasses}>
         {list.map((i) => (
           <a key={i.id} href={i.url}>
             {i.title}
@@ -25,21 +24,37 @@ function Spice({ list }) {
 }
 
 function Menu() {
+  const globalState = useContext(Context);
+  console.log("globalState", globalState);
   const { menu } = right;
-  const [spaceMore, setSpaceMore] = useState(false);
+  let spaceMore = false;
+
+  useEffect(() => {
+    console.log("spaceMore", spaceMore);
+  }, [spaceMore]);
+
   return (
     <div className={styles.container}>
-      {menu.map((dish) => (
-        <div key={dish.id} className={styles.item}>
-          <a
-            href={"link" in dish ? dish.link : undefined}
-            onClick={() => setSpaceMore(!spaceMore)}
+      {menu.map((dish) => {
+        const havingCave = "type" in dish;
+
+        return (
+          <div
+            key={dish.id}
+            className={styles.item}
+            onClick={(e) => {
+              if (havingCave) {
+                spaceMore = !spaceMore;
+              }
+              globalState.setMore();
+              e.stopPropagation();
+            }}
           >
-            {dish.title}
-          </a>
-          {"type" in dish ? <Spice list={dish.type} /> : undefined}
-        </div>
-      ))}
+            <a href={"link" in dish && dish.link}>{dish.title}</a>
+            {havingCave && <Spice list={dish.type} toggle={spaceMore} />}
+          </div>
+        );
+      })}
     </div>
   );
 }
