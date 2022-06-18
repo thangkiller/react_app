@@ -1,5 +1,11 @@
+import Poster from "./Poster";
+
 function Body() {
-  return <div></div>;
+  return (
+    <div>
+      <Poster />
+    </div>
+  );
 }
 
 export default Body;
