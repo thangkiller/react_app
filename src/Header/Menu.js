@@ -24,7 +24,6 @@ function Spice({ list, toggle }) {
 
 function Menu() {
   const globalState = useContext(Context);
-  console.log("globalState", globalState);
   const { menu } = right;
   const [spaceMore, setSpaceMore] = useState(false);
 
@@ -38,10 +37,10 @@ function Menu() {
             key={dish.id}
             className={styles.item}
             onClick={(e) => {
-              globalState.setMore();
               if (havingCave) {
-                setSpaceMore(!spaceMore);
+                setSpaceMore(globalState.offMore || !spaceMore);
               }
+              globalState.setMore();
               e.stopPropagation();
             }}
           >

@@ -1,11 +1,18 @@
-import "./Poster.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import styles from "./Poster.module.scss";
 
 function Poster() {
 	return (
-		<div>
-			<h1>A CONSOLE FOR EVERY WORKFLOW</h1>
-			<p>Discover the perfect console for yours.</p>
-			<button />
+		<div className={styles.poster}>
+			<div>
+				<h1>
+					A CONSOLE FOR
+					<br />
+					EVERY WORKFLOW
+				</h1>
+				<p>Discover the perfect console for yours.</p>
+			</div>
+			<FontAwesomeIcon icon={["fa-light", "fa-angle-down"]} />
 		</div>
 	);
 }
