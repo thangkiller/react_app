@@ -1,11 +1,13 @@
 .navbar {
+  position: fixed;
+  z-index: 99;
   font-family: Poppins, Prompt, sans-serif;
   font-size: 14px;
   display: flex;
   justify-content: space-between;
   background-color: #1a2456;
   width: 96vw;
-  margin: 0 auto;
+  margin: auto 1vw;
   margin-bottom: 100px;
   color: #efc2b3;
 }
