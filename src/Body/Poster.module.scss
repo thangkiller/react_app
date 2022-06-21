@@ -1,3 +1,20 @@
+@keyframes highlight {
+	from {
+		font-size: 26px;
+	}
+	to {
+		font-size: 30px;
+	}
+}
+@keyframes outlight {
+	from {
+		font-size: 30px;
+	}
+	to {
+		font-size: 26px;
+	}
+}
+
 .poster {
 	height: 675px;
 	background-image: url(../../public/img/shop-cta-xl.webp);
@@ -25,13 +42,22 @@
 		width: 85%;
 		transform: translateX(-50%);
 		z-index: 999;
-		background-color: red;
 		display: flex;
+		cursor: pointer;
+		font-size: 26px;
 		svg {
+			font-size: inherit;
 			margin: auto;
-			font-size: 26px;
 			color: white;
 			filter: drop-shadow(0 3px 4px black);
+		}
+		&:hover {
+			font-size: 30px;
+			animation: highlight 0.3s ease-in;
+		}
+		&:blur {
+			font-size: 26px;
+			animation: outlight 0.3s ease-in;
 		}
 	}
 }
