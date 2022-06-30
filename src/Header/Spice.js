@@ -1,11 +1,11 @@
 import clsx from "clsx";
 import styles from "./Menu.module.css";
 
-function Spice({ list, toggle }) {
-  console.log("toggle", toggle);
+function Spice({ list, on }) {
+  console.log("on", on);
   const spicesClasses = clsx(styles.spices, {
-    [styles.space]: !toggle.on,
-    [styles.flexD]: toggle.on,
+    [styles.space]: !on,
+    [styles.flexD]: on,
   });
   return (
     <div className={styles.more}>

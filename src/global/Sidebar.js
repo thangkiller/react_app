@@ -5,7 +5,7 @@ function Sidebar({ children, element }) {
 	const globalState = useContext(Context);
 	const [spaceMore, setSpaceMore] = useState(false);
 	const toggle = !globalState.offMore && spaceMore;
-	element.props.toggle.on = toggle;
+	element.props.setOn(toggle);
 	console.log("thanh gi chis");
 	return (
 		<div
