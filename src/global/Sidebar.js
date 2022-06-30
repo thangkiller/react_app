@@ -1,16 +1,15 @@
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { Context } from "../global/context";
 
 function Sidebar({ children, element }) {
 	const globalState = useContext(Context);
-	const [spaceMore, setSpaceMore] = useState(false);
-	const toggle = !globalState.offMore && spaceMore;
-	element.props.toggle.on = toggle;
-	console.log("thanh gi chis");
+	const toggle = !globalState.offMore && element.props.open.toggle;
+	element.props.open.toggle = toggle;
+	console.log(element.props);
 	return (
 		<div
 			onClick={(e) => {
-				setSpaceMore(!toggle);
+				element.props.open.setToggleOn(!toggle);
 				globalState.setMore();
 				e.stopPropagation();
 			}}

@@ -10,7 +10,7 @@ function Basket() {
 			<svg
 				height="25"
 				width="25"
-				fill="currentColor"
+				fillRule="currentColor"
 				className="bi bi-bag"
 				viewBox="0 0 16 16"
 			>
