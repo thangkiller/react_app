@@ -1,7 +1,7 @@
 function Logo() {
 	return (
 		<div>
-			<svg height="38" viewBox="0 0 520 114" fill="currentColor">
+			<svg height="38" viewBox="0 0 520 114" fillRule="currentColor">
 				<title>Monogram</title>
 				<path d="M150,36V0H0V114H150ZM144,6V36H78V6ZM6,6H72V72H6ZM72,108H6V78H72Zm72,0H78V78h0V42h66Z"></path>
 				<rect x="35.5" y="17" width="6" height="44"></rect>

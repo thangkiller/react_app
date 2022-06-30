@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { Context } from "../global/context";
 
 function Sidebar({ children, element }) {
@@ -10,7 +10,7 @@ function Sidebar({ children, element }) {
 	return (
 		<div
 			onClick={(e) => {
-				setSpaceMore(!toggle);
+				element.props.open.setToggleOn(!toggle);
 				globalState.setMore();
 				e.stopPropagation();
 			}}
