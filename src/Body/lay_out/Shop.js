@@ -5,7 +5,7 @@ import { products } from "../../Shop/good";
 
 function Shop() {
 	return (
-		<div className={styles.pro}>
+		<div className={styles.product}>
 			{products.map((product) => (
 				<Product
 					key={product.id}
