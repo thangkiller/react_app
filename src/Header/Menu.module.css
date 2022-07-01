@@ -7,25 +7,25 @@
 .flexD {
 	display: flex;
 }
-.item {
+.container > div {
 	padding: 0 1em;
 	display: flex;
 	position: relative;
 	cursor: pointer;
 }
-.item:last-child {
+.container > div:last-child {
 	font-weight: 600;
 }
-.item > a {
+.container > div > a {
 	text-decoration: none;
 	margin: auto;
-	color: white;
-}
-.item > a[href] {
 	color: #efc2b3;
 }
-.item > a:hover {
+.container > div > a[href]:hover {
 	color: #e28f74;
+}
+.container > div > a:hover {
+	color: white;
 }
 .more:before {
 	content: "";

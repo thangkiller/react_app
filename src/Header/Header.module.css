@@ -11,6 +11,12 @@
   margin-bottom: 100px;
   color: #efc2b3;
 }
+.navbar svg {
+  fill: #efc2b3;
+}
+.navbar svg:hover {
+  fill: #e28f74;
+}
 .navbar__item + .navbar__item {
   margin: 0 10em;
 }
@@ -18,8 +24,8 @@
   display: flex;
   cursor: pointer;
 }
-.left:hover {
-  color: #e28f74;
+.left svg {
+  margin-left: 6px;
 }
 .right {
   display: flex;

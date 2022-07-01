@@ -14,14 +14,12 @@ function Menu() {
         if (inWorkflows) {
           return (
             <Sidebar element={<Spice list={dish.type} on={on} setOn={setOn} />}>
-              <div key={dish.id} className={styles.item}>
-                <a href={"link" in dish && dish.link}>{dish.title}</a>
-              </div>
+              <a href={"link" in dish && dish.link}>{dish.title}</a>
             </Sidebar>
           );
         }
         return (
-          <div key={dish.id} className={styles.item}>
+          <div key={dish.id}>
             <a href={"link" in dish && dish.link}>{dish.title}</a>
           </div>
         );

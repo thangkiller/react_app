@@ -2,7 +2,6 @@ import clsx from "clsx";
 import styles from "./Menu.module.css";
 
 function Spice({ list, on }) {
-  console.log("on", on);
   const spicesClasses = clsx(styles.spices, {
     [styles.space]: !on,
     [styles.flexD]: on,
