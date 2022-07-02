@@ -1,18 +1,16 @@
 import Product from "./Product";
 import styles from "./Shop.module.scss";
 
-import { products } from "../../Shop/good";
-
-function Shop() {
+function Shop({ products }) {
 	return (
-		<div className={styles.product}>
-			{products.map((product) => (
+		<div className={styles.products}>
+			{products.map((pro) => (
 				<Product
-					key={product.id}
-					name={product.name}
-					photo_url={product.photo_url}
-					price={product.price}
-					is_stock={product.is_stock}
+					key={pro.id}
+					name={pro.name}
+					photo_url={pro.photo_url}
+					price={pro.price}
+					is_stock={pro.is_stock}
 				/>
 			))}
 		</div>
