@@ -1,9 +1,9 @@
 import Product from "./Product";
 import styles from "./Shop.module.scss";
 
-function Shop({ products, fashion }) {
+function Shop({ products, style }) {
 	return (
-		<div className={fashion}>
+		<div className={style}>
 			{products.map((pro) => (
 				<Product
 					key={pro.id}

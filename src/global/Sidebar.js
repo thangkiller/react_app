@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { Context } from "../global/context";
+import { Context } from "./context";
 
 function Sidebar({ children, element }) {
 	const globalState = useContext(Context);

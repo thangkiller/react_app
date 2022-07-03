@@ -1,8 +1,8 @@
 import { products, own } from "../Shop/good";
 import Poster from "./Poster";
 import Shop from "./lay_out/Shop";
+import { default as fashion } from "./lay_out/Shop.module.scss";
 import styles from "./Poster.module.scss";
-import styles as fashion from "./lay_out/Shop.module.scss";
 
 function Body() {
   return (
@@ -13,7 +13,7 @@ function Body() {
         img="./img/shop-cta-xl.webp"
         style={styles.poster1}
       />
-      <Shop products={products} style={fashion.a} />
+      <Shop products={products} style={fashion.product} />
       <Poster
         slogan="CREATE YOUR OWN CONSOLE"
         content="Add-on to make it perfect."

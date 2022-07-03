@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { right } from "../store/header";
-import Sidebar from "../global/Sidebar";
+import { Sidebar } from "../global";
 import Spice from "./Spice";
 import styles from "./Menu.module.css";
 

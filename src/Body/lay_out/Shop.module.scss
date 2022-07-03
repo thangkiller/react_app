@@ -1,4 +1,9 @@
 .product {
-	margin: 0 auto;
-	width: 70vw;
+	display: flex;
+	flex-wrap: wrap;
+	width: 82%;
+	margin: 44px 9% 0 9%;
+	& > div {
+		width: 48%;
+	}
 }
