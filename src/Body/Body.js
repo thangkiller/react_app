@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { products, own } from "../Shop/good";
 import Poster from "./Poster";
 import Shop from "./lay_out/Shop";
@@ -20,7 +21,7 @@ function Body() {
         img="./img/shop-banner-module.webp"
         style={styles.poster2}
       />
-      <Shop products={own} style={fashion.b} />
+      <Shop products={own} style={clsx(fashion.product, fashion.own)} />
     </div>
   );
 }
