@@ -13,8 +13,11 @@ function Menu() {
         const inWorkflows = "type" in dish;
         if (inWorkflows) {
           return (
-            <Sidebar element={<Spice list={dish.type} on={on} setOn={setOn} />}>
-              <a href={"link" in dish && dish.link}>{dish.title}</a>
+            <Sidebar
+              key={dish.id}
+              element={<Spice list={dish.type} on={on} setOn={setOn} />}
+            >
+              <a href={"link" in dish ? dish.link : undefined}>{dish.title}</a>
             </Sidebar>
           );
         }

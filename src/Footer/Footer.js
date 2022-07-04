@@ -1,10 +1,10 @@
-import Group from "./Group.js";
-import groups from "../store/footer.js";
-import styles from "./footer.module.css";
+import Subscribe from "./Subscribe";
+import groups from "../store/footer";
+import styles from "./footer.module.scss";
 
 function Footer() {
   return (
-    <div className={styles.cover}>
+    <div className={styles.container}>
       {groups.map((group) => (
         <div key={group.id}>
           <div>{group.title}</div>
@@ -15,6 +15,7 @@ function Footer() {
           ))}
         </div>
       ))}
+      <Subscribe style={styles.subscribe} />
     </div>
   );
 }

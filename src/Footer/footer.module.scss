@@ -1,0 +1,37 @@
+.container {
+	margin-top: 50px;
+	padding: 45px;
+	background-color: #1a2456;
+	display: flex;
+	& > div {
+		color: #efc2b3;
+		padding: 0 20px 22.5px 20px;
+		flex: 1;
+		div {
+			padding-bottom: 10px;
+			font-size: 13px;
+			font-weight: 700;
+		}
+		a {
+			font-size: 13px;
+			padding-bottom: 5px;
+			color: inherit;
+			text-decoration: none;
+			display: block;
+		}
+		a:hover {
+			text-decoration: underline;
+			color: #e28f74;
+		}
+	}
+	& > div:first-child a {
+		text-decoration: none;
+		cursor: text;
+		color: #efc2b3;
+	}
+	& > div:last-child {
+		flex: 2;
+	}
+}
+.subscribe {
+}
