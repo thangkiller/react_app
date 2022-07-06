@@ -34,79 +34,80 @@
 .outhome {
 	display: none;
 }
-.cover {
-	position: absolute;
-	inset: 0;
-	background-color: #000;
-	cursor: default;
-	opacity: 0.5;
-	z-index: 9999;
-}
-.bag {
-	width: 28%;
-	height: 100%;
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: 9999;
-	cursor: default;
-	font-weight: 700;
-	background-color: teal;
-	.header {
-		height: 12%;
-		font-size: 15px;
-		color: white;
-		background-color: #1a2456;
-		display: flex;
-		div {
-			cursor: pointer;
-			width: 50%;
-			margin: auto 0;
-			padding-left: 5px;
-		}
-		svg {
-			vertical-align: middle;
-		}
+.modal {
+	.overlay {
+		position: fixed;
+		inset: 0;
+		background-color: rgba(0, 0, 0, 0.3);
+		cursor: default;
+		z-index: 9999;
 	}
-	.footer {
-		height: 30%;
-		width: 100%;
-		background-color: #1a2456;
-		position: absolute;
-		bottom: 0;
-		display: flex;
-		flex-direction: column;
-		.paidMoney {
-			width: 78%;
-			margin: 25px auto;
-			display: flex;
-			justify-content: space-between;
-			font-size: 17px;
-			color: #fff;
-		}
-		button {
-			width: 78%;
-			height: 45px;
-			margin: 0 auto;
-			border-radius: 24px;
-			border-style: none;
-			background-color: #efc2b3;
-			color: black;
+	.bag {
+		width: 28%;
+		height: 100%;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 9999;
+		cursor: default;
+		font-weight: 700;
+		background-color: teal;
+		.header {
+			height: 12%;
 			font-size: 15px;
-			opacity: 0.65;
-			letter-spacing: 1.1px;
+			color: white;
+			background-color: #1a2456;
+			display: flex;
+			div {
+				cursor: pointer;
+				width: 50%;
+				margin: auto 0;
+				padding-left: 5px;
+			}
+			svg {
+				vertical-align: middle;
+			}
 		}
-		.gift {
-			width: 78%;
-			margin: 20px auto;
-			font-size: 14px;
-			font-weight: normal;
-			color: #ff7952;
-			cursor: pointer;
-			text-align: center;
-			&:hover {
-				color: #ff3e05;
-				text-decoration: underline;
+		.footer {
+			height: 30%;
+			width: 100%;
+			background-color: #1a2456;
+			position: absolute;
+			bottom: 0;
+			display: flex;
+			flex-direction: column;
+			.paidMoney {
+				width: 78%;
+				margin: 25px auto;
+				display: flex;
+				justify-content: space-between;
+				font-size: 17px;
+				color: #fff;
+			}
+			button {
+				width: 78%;
+				height: 45px;
+				margin: 0 auto;
+				border-radius: 24px;
+				border-style: none;
+				background-color: #efc2b3;
+				color: black;
+				font-size: 15px;
+				opacity: 0.65;
+				letter-spacing: 1.1px;
+			}
+			.gift {
+				width: 78%;
+				margin: 20px auto;
+				font-size: 14px;
+				font-weight: normal;
+				color: #ff7952;
+				cursor: pointer;
+				text-align: center;
+				&:hover {
+					color: #ff3e05;
+					text-decoration: underline;
+				}
 			}
 		}
 	}

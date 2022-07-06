@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./Header.module.css";
 import Menu from "./Menu";
 import Logo from "../store/icon/Logo";
-import Basket from "../store/icon/Basket";
+import Modal from "./Modal";
 
 function Header({ rounts }) {
   return (
@@ -12,7 +12,7 @@ function Header({ rounts }) {
       </div>
       <div className={styles.right}>
         <Menu />
-        <Basket />
+        <Modal />
       </div>
     </div>
   );
