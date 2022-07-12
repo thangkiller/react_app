@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Header.module.css";
 import Menu from "./Menu";
-import Logo from "../store/icon/Logo";
+import { Logo } from "../store/icon";
 import Modal from "./Modal";
 
 function Header({ rounts }) {

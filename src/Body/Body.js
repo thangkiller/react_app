@@ -2,6 +2,7 @@ import clsx from "clsx";
 import { products, own } from "../Shop/good";
 import Poster from "./Poster";
 import Shop from "./lay_out/Shop";
+import { Arrow } from "../store/icon";
 import { default as fashion } from "./lay_out/Shop.module.scss";
 import styles from "./Poster.module.scss";
 
@@ -13,6 +14,11 @@ function Body() {
         content="Discover the perfect console for yours."
         img="./img/shop-cta-xl.webp"
         style={styles.poster1}
+        arrow={
+          <button>
+            <Arrow />
+          </button>
+        }
       />
       <Shop products={products} style={fashion.product} />
       <Poster

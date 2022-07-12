@@ -1,4 +1,4 @@
-function Basket() {
+function Basket({ setOn }) {
 	return (
 		<div
 			style={{
@@ -6,6 +6,7 @@ function Basket() {
 				marginTop: "7px",
 				marginRight: "7px",
 			}}
+			onClick={() => setOn(false)}
 		>
 			<svg
 				height="25"
