@@ -2,11 +2,12 @@ import clsx from "clsx";
 import { products, own } from "../Shop/good";
 import Poster from "./Poster";
 import Shop from "./lay_out/Shop";
-import { Arrow } from "../store/icon";
+import { ArrowDown } from "../store/icon";
 import { default as fashion } from "./lay_out/Shop.module.scss";
 import styles from "./Poster.module.scss";
 
 function Body() {
+  const posShop_y = 700;
   return (
     <div>
       <Poster
@@ -14,12 +15,15 @@ function Body() {
         content="Discover the perfect console for yours."
         img="./img/shop-cta-xl.webp"
         style={styles.poster1}
-        arrow={
-          <button>
-            <Arrow />
-          </button>
-        }
       />
+      <a
+        className={styles.arrow}
+        onClick={() => {
+          window.scroll({ top: posShop_y, left: 0, behavior: "smooth" });
+        }}
+      >
+        <ArrowDown />
+      </a>
       <Shop products={products} style={fashion.product} />
       <Poster
         slogan="CREATE YOUR OWN CONSOLE"

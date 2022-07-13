@@ -40,31 +40,33 @@
 			font-size: 18px;
 		}
 	}
+
 	// a {
-	// 	position: absolute;
-	// 	bottom: 3%;
-	// 	left: 50%;
-	// 	width: 85%;
-	// 	transform: translateX(-50%);
-	// 	z-index: 999;
-	// 	display: flex;
-	// 	cursor: pointer;
-	// 	font-size: 26px;
-	// 	svg {
-	// 		font-size: inherit;
-	// 		margin: auto;
-	// 		fill: white;
-	// 		filter: drop-shadow(0 3px 4px black);
-	// 	}
-	// 	&:hover {
-	// 		font-size: 30px;
-	// 		animation: highlight 0.3s ease-in;
-	// 	}
-	// 	&:blur {
-	// 		font-size: 26px;
-	// 		animation: outlight 0.3s ease-in;
-	// 	}
-	// }
+}
+.arrow {
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	width: 85%;
+	transform: translateX(-50%);
+	z-index: 999;
+	display: flex;
+	cursor: pointer;
+	font-size: 26px;
+	svg {
+		font-size: inherit;
+		margin: auto;
+		fill: white;
+		filter: drop-shadow(0 3px 4px black);
+	}
+	&:hover {
+		font-size: 30px;
+		animation: highlight 0.3s ease-in;
+	}
+	&:blur {
+		font-size: 26px;
+		animation: outlight 0.3s ease-in;
+	}
 }
 .poster2 {
 	height: 506px;
