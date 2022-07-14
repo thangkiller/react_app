@@ -1,5 +1,4 @@
 import Product from "./Product";
-import styles from "./Shop.module.scss";
 
 function Shop({ products, style }) {
 	return (
@@ -9,6 +8,7 @@ function Shop({ products, style }) {
 					key={pro.id}
 					name={pro.name}
 					photo_url={pro.photo_url}
+					urlhover={pro.urlhover}
 					price={pro.price}
 					is_stock={pro.is_stock}
 				/>
