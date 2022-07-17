@@ -7,17 +7,11 @@
 		width: 48%;
 		margin: 0 10px;
 	}
-	img {
-		width: 557px;
-		height: 371px;
-	}
 }
 .own {
 	& > div {
-		width: 30%;
-	}
-	img {
-		width: 336px;
-		height: 336px;
+		$sizewidth: 24.6vw;
+		width: $sizewidth;
+		height: $sizewidth * 100/80;
 	}
 }
