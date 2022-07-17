@@ -7,7 +7,7 @@ function Footer() {
     <div className={styles.container}>
       {groups.map((group) => (
         <div key={group.id}>
-          <div>{group.title}</div>
+          <div className={styles.title}>{group.title}</div>
           {group.list.map((info) => (
             <a key={info.id} href={info.name}>
               {info.name}
@@ -15,7 +15,7 @@ function Footer() {
           ))}
         </div>
       ))}
-      <Subscribe style={styles.subscribe} />
+      <Subscribe />
     </div>
   );
 }

@@ -7,10 +7,11 @@
 		color: #efc2b3;
 		padding: 0 20px 22.5px 20px;
 		flex: 1;
-		div {
+		.title {
 			padding-bottom: 10px;
 			font-size: 13px;
 			font-weight: 700;
+			letter-spacing: 1px;
 		}
 		a {
 			font-size: 13px;
@@ -34,4 +35,62 @@
 	}
 }
 .subscribe {
+	font-size: 13px;
+	.title {
+		padding-bottom: 2px;
+	}
+	.caption {
+		margin-top: 0;
+		margin-bottom: 9px;
+		padding: 0;
+		font-weight: normal;
+	}
+	.email {
+		display: flex;
+		input {
+			height: 29.75px;
+			background-color: transparent;
+			border: 1px solid #efc2b3;
+			caret-color: #efc2b3;
+			&:focus-visible {
+				outline-style: none;
+			}
+		}
+		button {
+			margin-left: 7.5px;
+			padding: 6px 26px;
+			background-color: #efc2b3;
+			opacity: 0.65;
+			border-style: none;
+			border-radius: 16px;
+			font-size: 12px;
+			font-weight: 700;
+			color: #1a2456;
+			letter-spacing: 1px;
+		}
+	}
+	.fanpage {
+		margin-top: 14px;
+		display: flex;
+		a {
+			width: 27px;
+			height: 27px;
+			background-color: #efc2b3;
+			position: relative;
+			border-radius: 50%;
+			margin-right: 5px;
+			svg {
+				width: 60%;
+				height: 60%;
+				position: absolute;
+				top: 20%;
+				left: 20%;
+				fill: #1a2456;
+			}
+		}
+	}
+	.company {
+		font-weight: normal;
+		margin-top: 16px;
+	}
 }
