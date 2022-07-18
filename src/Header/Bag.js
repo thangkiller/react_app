@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import styles from "./Bag.module.scss";
-import { Arrow } from "../store/icon";
+import { Arrow, Editing, pays } from "../store/icon";
 
 const money = 0;
 const $ = styles;
@@ -28,7 +28,41 @@ function Bag({ on, setOn }) {
 						CONTINUTE SHOPPING
 					</div>
 				</div>
-				<div className={$.body}></div>
+				<div className={$.body}>
+					<div className={$.body__header}>
+						<h2>NOTHING IN YOUR BAG!</h2>
+						<div>
+							<a href="./">Start shopping</a> to see if you
+							qualify for free shipping.
+						</div>
+					</div>
+					<div className={$.body}>
+						<Editing />
+						<div className={$.content}>
+							<div className={$.cap}>
+								MONOGRAM BETTER EDITING GUARANTEE
+							</div>
+							<p>
+								Try Monogram Creative Console in your own
+								workflow for 30 days. If it does not improve
+								your editing experience, you can return it for a
+								full refund.
+							</p>
+						</div>
+					</div>
+					<div className={$.body__footer}>
+						<div className={$.title}>SECURE PAYMENTS</div>
+						<ul>
+							{pays.map((Pay, i) => {
+								return (
+									<li key={i}>
+										<Pay />
+									</li>
+								);
+							})}
+						</ul>
+					</div>
+				</div>
 				<div className={$.footer}>
 					<div className={$.paidMoney}>
 						<div>SUBTOTAL</div>
